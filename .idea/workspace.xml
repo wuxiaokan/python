@@ -305,7 +305,7 @@
       <workItem from="1615194634938" duration="11992000" />
       <workItem from="1615441984559" duration="1195000" />
       <workItem from="1615512944537" duration="1332000" />
-      <workItem from="1615531241158" duration="1401000" />
+      <workItem from="1615531241158" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="接口  web自动化">
       <created>1615532369203</created>
@@ -350,7 +350,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165693000" />
+    <option name="totallyTimeSpent" value="166210000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -364,7 +364,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.20272206" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.20272206" />
       <window_info id="Structure" order="1" sideWeight="0.502008" side_tool="true" weight="0.2858166" />
       <window_info id="Favorites" order="2" sideWeight="0.502008" side_tool="true" weight="0.2858166" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -378,7 +378,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" weight="0.35579515" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.497851" weight="0.20754717" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.497851" visible="true" weight="0.51078165" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49928367" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
