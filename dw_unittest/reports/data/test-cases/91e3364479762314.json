@@ -1,0 +1,94 @@
+{
+  "uid" : "91e3364479762314",
+  "name" : "test_login_fail[data0]",
+  "fullName" : "testcase.test_login.TestLogin#test_login_fail",
+  "historyId" : "658c31268613a37e166d88d3437a32fc",
+  "time" : {
+    "start" : 1614570648248,
+    "stop" : 1614570648287,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1614570647785,
+      "stop" : 1614570647953,
+      "duration" : 168
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a634683bd7c7eec7",
+      "name" : "log",
+      "source" : "a634683bd7c7eec7.txt",
+      "type" : "text/plain",
+      "size" : 143
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "错误验证码"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "11476-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 1, 'title': '5位验证码', 'url': 'http://192.168.3.157:8069/dongwang-app/app/user/login', 'json': {'type': '1', 'flashToken': '', 'deviceId': 'aaa', 'device': '1', 'smsCode': '12312', 'phone': '113157121093'}, 'expected': {'status_code': 500, 'message': '验证码输入错误,请重新输入'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91e3364479762314.json",
+  "parameterValues" : [ "{'id': 1, 'title': '5位验证码', 'url': 'http://192.168.3.157:8069/dongwang-app/app/user/login', 'json': {'type': '1', 'flashToken': '', 'deviceId': 'aaa', 'device': '1', 'smsCode': '12312', 'phone': '113157121093'}, 'expected': {'status_code': 500, 'message': '验证码输入错误,请重新输入'}}" ]
+}

@@ -1,0 +1,191 @@
+[ {
+  "uid" : "e220d0527ee40d3b",
+  "name" : "test_login_element",
+  "time" : {
+    "start" : 1614590573825,
+    "stop" : 1614590574822,
+    "duration" : 997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "330fccb9011cd5fc",
+  "name" : "test_login_right",
+  "time" : {
+    "start" : 1614073474321,
+    "stop" : 1614073474425,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbbd23c8ba65660",
+  "name" : "test_get_index_title",
+  "time" : {
+    "start" : 1614073474185,
+    "stop" : 1614073474197,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2356306d444eadfe",
+  "name" : "test_get_index_title",
+  "time" : {
+    "start" : 1614590580925,
+    "stop" : 1614590580941,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41c3995daade61be",
+  "name" : "test_login_fail[data1]",
+  "time" : {
+    "start" : 1614073474469,
+    "stop" : 1614073474503,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "124b29127d95af94",
+  "name" : "test_login_fail[data2]",
+  "time" : {
+    "start" : 1614590581314,
+    "stop" : 1614590581346,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b863f9ae31519a5a",
+  "name" : "test_login_fail[data0]",
+  "time" : {
+    "start" : 1614590581237,
+    "stop" : 1614590581274,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "566dcad0f2387f6d",
+  "name" : "test_add_adv",
+  "time" : {
+    "start" : 1614590574824,
+    "stop" : 1614590580786,
+    "duration" : 5962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a70a7f2c8ec1790d",
+  "name" : "test_login_fail[data1]",
+  "time" : {
+    "start" : 1614590581277,
+    "stop" : 1614590581311,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4d2a37db5fe40fd",
+  "name" : "test_get_code[data1]",
+  "time" : {
+    "start" : 1614073474267,
+    "stop" : 1614073474315,
+    "duration" : 48
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "31d22d3227559ce4",
+  "name" : "test_add_adv",
+  "time" : {
+    "start" : 1614073473820,
+    "stop" : 1614073473820,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c3a1aa5de3eacb74",
+  "name" : "test_addAdv",
+  "time" : {
+    "start" : 1614071344492,
+    "stop" : 1614071345450,
+    "duration" : 958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d28d99d25692d3b",
+  "name" : "test_login_element",
+  "time" : {
+    "start" : 1614073471133,
+    "stop" : 1614073471133,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8581215bef393463",
+  "name" : "test_login_right",
+  "time" : {
+    "start" : 1614590581113,
+    "stop" : 1614590581235,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8ee93128c973eca",
+  "name" : "test_login_fail[data0]",
+  "time" : {
+    "start" : 1614073474428,
+    "stop" : 1614073474466,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e34f53a568128017",
+  "name" : "test_login_fail[data2]",
+  "time" : {
+    "start" : 1614073474506,
+    "stop" : 1614073474540,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5398e33e18d781b",
+  "name" : "test_get_code[data0]",
+  "time" : {
+    "start" : 1614073474199,
+    "stop" : 1614073474247,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d6a2467c0b5be6d",
+  "name" : "test_get_code[data1]",
+  "time" : {
+    "start" : 1614590580999,
+    "stop" : 1614590581049,
+    "duration" : 50
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd8ae7f406a7ceb6",
+  "name" : "test_get_code[data0]",
+  "time" : {
+    "start" : 1614590580944,
+    "stop" : 1614590580995,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,117 @@
+{
+  "uid" : "2356306d444eadfe",
+  "name" : "test_get_index_title",
+  "fullName" : "testcase.test_index.TestIndex#test_get_index_title",
+  "historyId" : "23e68cd7eff960c11d28c2b2753ecf0e",
+  "time" : {
+    "start" : 1614590580925,
+    "stop" : 1614590580941,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1614590580788,
+      "stop" : 1614590580925,
+      "duration" : 137
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b8e03957c6579356",
+      "name" : "log",
+      "source" : "b8e03957c6579356.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页模块"
+  }, {
+    "name" : "story",
+    "value" : "首页标签信息列表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_index"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIndex"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "3528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_index"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e5f131ab41aabece",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614590494000,
+        "stop" : 1614590494011,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "b539a54a6f698876",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614570647953,
+        "stop" : 1614570647963,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "82e846212187c476",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614566314432,
+        "stop" : 1614566314441,
+        "duration" : 9
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2356306d444eadfe.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,101 @@
+{
+  "uid" : "566dcad0f2387f6d",
+  "name" : "test_add_adv",
+  "fullName" : "testcase.test_elementui.Testadv#test_add_adv",
+  "historyId" : "20ee42990deb329210a553862e6c55d3",
+  "time" : {
+    "start" : 1614590574824,
+    "stop" : 1614590580786,
+    "duration" : 5962
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browse",
+    "time" : {
+      "start" : 1614590569497,
+      "stop" : 1614590573823,
+      "duration" : 4326
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加闪屏"
+  }, {
+    "name" : "feature",
+    "value" : "后台添加闪屏"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_elementui"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testadv"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "3528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_elementui"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c2d501eb59ebb572",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614590488141,
+        "stop" : 1614590493803,
+        "duration" : 5662
+      }
+    }, {
+      "uid" : "b7ca1934f2d96c32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614570642164,
+        "stop" : 1614570647763,
+        "duration" : 5599
+      }
+    }, {
+      "uid" : "107b346ab4ec59b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614566308841,
+        "stop" : 1614566314291,
+        "duration" : 5450
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "566dcad0f2387f6d.json",
+  "parameterValues" : [ ]
+}

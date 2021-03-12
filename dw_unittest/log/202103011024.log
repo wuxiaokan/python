@@ -1,0 +1,6 @@
+2021-03-01 10:24:24,908 - test_login.py[line:29] - INFO: 获取短信接口日志信息: {'code': 200, 'data': {'smsCode': '491331'}, 'message': '请求成功', 'status': 'success'}
+2021-03-01 10:24:24,961 - test_login.py[line:29] - INFO: 获取短信接口日志信息: {'code': 200, 'data': {'smsCode': '504092'}, 'message': '请求成功', 'status': 'success'}
+2021-03-01 10:24:25,132 - test_login.py[line:50] - INFO: 正确短信验证码验证: {'code': 200, 'data': {'token': '9a17a5e5-bdc0-4384-9ca5-73fadc286c40'}, 'message': '请求成功', 'status': 'success'}
+2021-03-01 10:24:25,169 - test_login.py[line:60] - INFO: 错误短信验证码验证: {'code': 500, 'message': '验证码输入错误,请重新输入', 'status': 'fail'}
+2021-03-01 10:24:25,202 - test_login.py[line:60] - INFO: 错误短信验证码验证: {'code': 500, 'message': '验证码输入错误,请重新输入', 'status': 'fail'}
+2021-03-01 10:24:25,234 - test_login.py[line:60] - INFO: 错误短信验证码验证: {'code': 500, 'message': '验证码输入错误,请重新输入', 'status': 'fail'}

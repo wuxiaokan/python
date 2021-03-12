@@ -1,0 +1,74 @@
+common:
+  url: http://192.168.3.157:8069/dongwang-app/app/sms/getSmsCodeByPhone
+  method: "post"
+  headers: '{"Content-Type": "application/json"}'
+# 加上-让其变为列表
+getCode_login:
+  - id: 1
+    title: "合理手机号"
+    json:
+      phone: "13157121095"
+      deviceId: "aaa"
+      type: "0"
+    expected:
+      status_code: 200
+      message: "请求成功"
+getCode:
+  - id: 1
+    title: "合理手机号"
+    json:
+      phone: "13157121093"
+      deviceId: "aaa"
+      type: "0"
+    expected:
+      status_code: 200
+      message: "请求成功"
+  - id: 2
+    title: "不合理手机号"
+    json:
+      phone: "113157121093"
+      deviceId: "aaa"
+      type: "0"
+    expected:
+      status_code: 400
+      message: "密码不能为空"
+login:
+  - id: 1
+    title: "5位验证码"
+    url: "http://192.168.3.157:8069/dongwang-app/app/user/login"
+    json:
+      type: "1"
+      flashToken: ""
+      deviceId: "aaa"
+      device: "1"
+      smsCode: "12312"
+      phone: "113157121093"
+    expected:
+      status_code: 500
+      message: "验证码输入错误,请重新输入"
+  - id: 2
+    title: "7位验证码"
+    url: "http://192.168.3.157:8069/dongwang-app/app/user/login"
+    json:
+      type: "1"
+      flashToken: ""
+      deviceId: "aaa"
+      device: "1"
+      smsCode: "1231234"
+      phone: "113157121093"
+    expected:
+      status_code: 500
+      message: "验证码输入错误,请重新输入"
+  - id: 3
+    title: "6位错误验证码"
+    url: "http://192.168.3.157:8069/dongwang-app/app/user/login"
+    json:
+      type: "1"
+      flashToken: ""
+      deviceId: "aaa"
+      device: "1"
+      smsCode: "123456"
+      phone: "113157121093"
+    expected:
+      status_code: 500
+      message: "验证码输入错误,请重新输入"

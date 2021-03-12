@@ -1,0 +1,39 @@
+
+#测试环境
+otc:
+  host: 127.0.0.1
+  port: 3308
+  user_name: dev
+  password: h~,o(l=4#aiVOgBB
+  db_name: odin
+  drive: mysql
+otc_user:
+  user_name: 15275594231
+  password: 123456
+otc_user_second:
+  user_name: 18900000083
+  password: 123456
+otc_user_three:
+  user_name: 18821768014
+  password: a1234567
+
+#otc_app_host: http://otcmerchant.blockchaincoinpay.com
+otc_app_host: http://www.shcpe.com.cn/
+otc_admin_host: https://shendu-dev1.sdpjw.cn/
+#merchant_host: https://api.ikangsports.com:442/
+merchant_host: https://shendu-dev1.sdpjw.cn/
+merchant_sys_host: http://merchant.blockchaincoinpay.com
+
+otc_admin:
+ user_name: admin
+ password: 123
+ admin:
+   host: 127.0.0.1
+   port: 3308,
+   user_name: dev,
+   password: h~,o(l=4#aiVOgBB,
+   db_name: otc_admin,
+   drive: mysql
+merchant:
+ user_name: apitest
+ password: a123123

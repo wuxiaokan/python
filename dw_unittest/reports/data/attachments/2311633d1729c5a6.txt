@@ -1,0 +1,1 @@
+INFO     root:test_login.py:60 错误短信验证码验证: {'code': 500, 'message': '验证码输入错误,请重新输入', 'status': 'fail'}

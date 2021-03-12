@@ -1,0 +1,1 @@
+INFO     root:test_login.py:50 正确短信验证码验证: {'code': 200, 'data': {'token': 'cb4dbea4-3252-43e0-b59b-d8651ce86e62'}, 'message': '请求成功', 'status': 'success'}

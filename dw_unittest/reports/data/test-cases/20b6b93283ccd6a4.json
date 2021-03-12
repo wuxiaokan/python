@@ -1,0 +1,78 @@
+{
+  "uid" : "20b6b93283ccd6a4",
+  "name" : "test_get_code[data0]",
+  "fullName" : "case.test_login.TestLogin#test_get_code",
+  "historyId" : "cf6c577b7adf0d58d4cb9957f5a0458a",
+  "time" : {
+    "start" : 1614073226466,
+    "stop" : 1614073226508,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1614073226294,
+      "stop" : 1614073226452,
+      "duration" : 158
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "获取短信接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "5088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 1, 'title': '合理手机号', 'json': {'phone': '13157121093', 'deviceId': 'aaa', 'type': '0'}, 'expected': {'status_code': 200, 'message': '请求成功'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20b6b93283ccd6a4.json",
+  "parameterValues" : [ "{'id': 1, 'title': '合理手机号', 'json': {'phone': '13157121093', 'deviceId': 'aaa', 'type': '0'}, 'expected': {'status_code': 200, 'message': '请求成功'}}" ]
+}

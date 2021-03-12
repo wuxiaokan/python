@@ -1,0 +1,78 @@
+{
+  "uid" : "56a7298a3073e287",
+  "name" : "test_login_fail[data1]",
+  "fullName" : "case.test_login.TestLogin#test_login_fail",
+  "historyId" : "b6fa7ff97725f1469f0d62024f34a18b",
+  "time" : {
+    "start" : 1614060890393,
+    "stop" : 1614060890421,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1614060889966,
+      "stop" : 1614060890092,
+      "duration" : 126
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "错误验证码"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "14940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 2, 'title': '7位验证码', 'url': 'http://192.168.3.157:8069/dongwang-app/app/user/login', 'json': {'type': '1', 'flashToken': '', 'deviceId': 'aaa', 'device': '1', 'smsCode': '1231234', 'phone': '113157121093'}, 'expected': {'status_code': 500, 'message': '验证码输入错误,请重新输入'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56a7298a3073e287.json",
+  "parameterValues" : [ "{'id': 2, 'title': '7位验证码', 'url': 'http://192.168.3.157:8069/dongwang-app/app/user/login', 'json': {'type': '1', 'flashToken': '', 'deviceId': 'aaa', 'device': '1', 'smsCode': '1231234', 'phone': '113157121093'}, 'expected': {'status_code': 500, 'message': '验证码输入错误,请重新输入'}}" ]
+}

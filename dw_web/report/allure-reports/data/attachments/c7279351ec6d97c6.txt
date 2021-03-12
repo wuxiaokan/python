@@ -1,0 +1,7 @@
+INFO     root:basePage.py:22 定位到元素('xpath', '//*[@id="app"]/div/form/div[2]/div/div[1]/input')
+INFO     root:basePage.py:28 输入内容---1111
+INFO     root:basePage.py:22 定位到元素('xpath', '//*[@id="app"]/div/form/div[3]/div/div/input')
+INFO     root:basePage.py:28 输入内容---123121
+INFO     root:basePage.py:22 定位到元素('xpath', '//*[@id="app"]/div/form/button')
+INFO     root:basePage.py:34 点击按钮('xpath', '//*[@id="app"]/div/form/button')
+INFO     root:basePage.py:44 获取当前页面的title----懂王app管理后台

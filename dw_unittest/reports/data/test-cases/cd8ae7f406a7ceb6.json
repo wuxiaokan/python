@@ -1,0 +1,120 @@
+{
+  "uid" : "cd8ae7f406a7ceb6",
+  "name" : "test_get_code[data0]",
+  "fullName" : "testcase.test_login.TestLogin#test_get_code",
+  "historyId" : "368c0aed2e37de8e960cafad1201bd7f",
+  "time" : {
+    "start" : 1614590580944,
+    "stop" : 1614590580995,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1614590580788,
+      "stop" : 1614590580925,
+      "duration" : 137
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1c14445431121886",
+      "name" : "log",
+      "source" : "1c14445431121886.txt",
+      "type" : "text/plain",
+      "size" : 155
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取短信接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "3528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 1, 'title': '合理手机号', 'json': {'phone': '13157121093', 'deviceId': 'aaa', 'type': '0'}, 'expected': {'status_code': 200, 'message': '请求成功'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1d1f383822d74b97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614590494014,
+        "stop" : 1614590494062,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "3967984f82a02984",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614570647965,
+        "stop" : 1614570648012,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "882100150f3b097d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614566314443,
+        "stop" : 1614566314490,
+        "duration" : 47
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd8ae7f406a7ceb6.json",
+  "parameterValues" : [ "{'id': 1, 'title': '合理手机号', 'json': {'phone': '13157121093', 'deviceId': 'aaa', 'type': '0'}, 'expected': {'status_code': 200, 'message': '请求成功'}}" ]
+}

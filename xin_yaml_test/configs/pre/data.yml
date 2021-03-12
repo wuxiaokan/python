@@ -1,0 +1,36 @@
+
+#测试环境
+otc:
+  host: 127.0.0.1
+  port: 3308
+  user_name: dev
+  password: h~,o(l=4#aiVOgBB
+  db_name: odin
+  drive: mysql
+otc_user:
+  user_name: 18325648013
+  password: a123456
+otc_user_second:
+  user_name: 18325648011
+  password: x123456
+otc_user_three:
+  user_name: 18821768014
+  password: a1234567
+
+otc_app_host: http://otcmerchant.blockchaincoinpay.com
+                 otc_admin_host:http://newadmin.blockchaincoinpay.com
+                 merchant_host:http://www.blockchaincoinpay.com
+                 merchant_sys_host:http://merchant.blockchaincoinpay.com
+ otc_admin:
+   user_name: zhangbo
+   password: 123456
+   admin:
+     host: 127.0.0.1,
+     port: 3308,
+     user_name: dev,
+     password: h~,o(l=4#aiVOgBB,
+     db_name: otc_admin,
+     drive: mysql
+merchant:
+ user_name: apitest
+ password: a123123

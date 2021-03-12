@@ -1,0 +1,1 @@
+INFO     root:test_login.py:29 获取短信接口日志信息: {'code': 200, 'data': {'smsCode': '917287'}, 'message': '请求成功', 'status': 'success'}

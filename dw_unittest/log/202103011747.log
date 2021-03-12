@@ -1,0 +1,7 @@
+2021-03-01 17:48:09,146 - test_index.py[line:36] - INFO: 首页标签信息列表:['娱乐', '文化', '历史', '体育', '旅游', '文学', '艺术', '教育']
+2021-03-01 17:48:09,196 - test_login.py[line:29] - INFO: 获取短信接口日志信息: {'code': 200, 'data': {'smsCode': '293555'}, 'message': '请求成功', 'status': 'success'}
+2021-03-01 17:48:09,243 - test_login.py[line:29] - INFO: 获取短信接口日志信息: {'code': 200, 'data': {'smsCode': '945717'}, 'message': '请求成功', 'status': 'success'}
+2021-03-01 17:48:09,399 - test_login.py[line:50] - INFO: 正确短信验证码验证: {'code': 200, 'data': {'token': 'e2ecd2d1-c32f-4df7-b412-cc33f0dc1382'}, 'message': '请求成功', 'status': 'success'}
+2021-03-01 17:48:09,441 - test_login.py[line:60] - INFO: 错误短信验证码验证: {'code': 500, 'message': '验证码输入错误,请重新输入', 'status': 'fail'}
+2021-03-01 17:48:09,483 - test_login.py[line:60] - INFO: 错误短信验证码验证: {'code': 500, 'message': '验证码输入错误,请重新输入', 'status': 'fail'}
+2021-03-01 17:48:09,522 - test_login.py[line:60] - INFO: 错误短信验证码验证: {'code': 500, 'message': '验证码输入错误,请重新输入', 'status': 'fail'}

@@ -1,0 +1,246 @@
+{
+  "uid" : "e34f53a568128017",
+  "name" : "test_login_fail[data2]",
+  "fullName" : "case.test_login.TestLogin#test_login_fail",
+  "historyId" : "84c7f37425acf02e7d6820b030f03f6a",
+  "time" : {
+    "start" : 1614073474506,
+    "stop" : 1614073474540,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1614073473870,
+      "stop" : 1614073474185,
+      "duration" : 315
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "错误验证码"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "2172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 3, 'title': '6位错误验证码', 'url': 'http://192.168.3.157:8069/dongwang-app/app/user/login', 'json': {'type': '1', 'flashToken': '', 'deviceId': 'aaa', 'device': '1', 'smsCode': '123456', 'phone': '113157121093'}, 'expected': {'status_code': 500, 'message': '验证码输入错误,请重新输入'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2c65a6048413a12a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614073379718,
+        "stop" : 1614073379753,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "6e8224caa212fe95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614073226736,
+        "stop" : 1614073226768,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "62a69a8c63c591d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614072981354,
+        "stop" : 1614072981393,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "d1a3a65f0b2d0fca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614072749897,
+        "stop" : 1614072749930,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "6a04b183f287ec7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614072555209,
+        "stop" : 1614072555249,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "d827f24f78252af6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614071346011,
+        "stop" : 1614071346043,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "5e8f272d0bd7e4ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614068232101,
+        "stop" : 1614068232140,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "3c0d5d7b4d5920ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614065634975,
+        "stop" : 1614065635008,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "395689a037859828",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614063779057,
+        "stop" : 1614063779082,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "ba0d920f1baa6da3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614063299430,
+        "stop" : 1614063299472,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "868fa85a36d05a0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614061950917,
+        "stop" : 1614061950949,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "192a4d7805d58825",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614060890424,
+        "stop" : 1614060890451,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "82b9e4af5d41e650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614060835594,
+        "stop" : 1614060835648,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "5ff0f7d9368e82e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614060542530,
+        "stop" : 1614060542572,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "d862a0f162e98db8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614052585819,
+        "stop" : 1614052585856,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "ed1632d66e1d58da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614052232162,
+        "stop" : 1614052232198,
+        "duration" : 36
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3a34509a117bb4c4",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/7/allure/#testresult/3a34509a117bb4c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614068232101,
+          "stop" : 1614068232140,
+          "duration" : 39
+        }
+      }, {
+        "uid" : "aea3e4fd04444c7d",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/6/allure/#testresult/aea3e4fd04444c7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614065634975,
+          "stop" : 1614065635008,
+          "duration" : 33
+        }
+      }, {
+        "uid" : "3f38acec27c3baa9",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/5/allure/#testresult/3f38acec27c3baa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614063779057,
+          "stop" : 1614063779082,
+          "duration" : 25
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e34f53a568128017.json",
+  "parameterValues" : [ "{'id': 3, 'title': '6位错误验证码', 'url': 'http://192.168.3.157:8069/dongwang-app/app/user/login', 'json': {'type': '1', 'flashToken': '', 'deviceId': 'aaa', 'device': '1', 'smsCode': '123456', 'phone': '113157121093'}, 'expected': {'status_code': 500, 'message': '验证码输入错误,请重新输入'}}" ]
+}

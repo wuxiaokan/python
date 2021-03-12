@@ -1,0 +1,9 @@
+INFO     root:basePage.py:22 定位到元素('xpath', '//*[@id="app"]/div/form/div[2]/div/div[1]/input')
+INFO     root:basePage.py:28 输入内容---wxk
+INFO     root:basePage.py:22 定位到元素('xpath', '//*[@id="app"]/div/form/div[3]/div/div/input')
+INFO     root:basePage.py:28 输入内容---123456
+INFO     root:basePage.py:22 定位到元素('xpath', '//*[@id="app"]/div/form/button')
+INFO     root:basePage.py:34 点击按钮('xpath', '//*[@id="app"]/div/form/button')
+INFO     root:basePage.py:22 定位到元素('class name', 'sidebar-title')
+INFO     root:basePage.py:39 获取文本信息---懂王app管理后台
+INFO     root:basePage.py:22 定位到元素('class name', 'sidebar-title')

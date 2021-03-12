@@ -1,0 +1,22 @@
+2021-03-08 16:34:00,662 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/form/div[2]/div/div[1]/input')
+2021-03-08 16:34:00,796 - basePage.py[line:29] - INFO: 输入内容---wxk
+2021-03-08 16:34:00,798 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/form/div[3]/div/div/input')
+2021-03-08 16:34:00,912 - basePage.py[line:29] - INFO: 输入内容---123456
+2021-03-08 16:34:00,913 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/form/button')
+2021-03-08 16:34:00,971 - basePage.py[line:35] - INFO: 点击按钮('xpath', '//*[@id="app"]/div/form/button')
+2021-03-08 16:34:00,976 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[2]/li/div')
+2021-03-08 16:34:01,604 - basePage.py[line:35] - INFO: 点击按钮('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[2]/li/div')
+2021-03-08 16:34:01,615 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[2]/li/ul/div[1]/a/li')
+2021-03-08 16:34:01,900 - basePage.py[line:35] - INFO: 点击按钮('xpath', '//*[@id="app"]/div/div[1]/div[2]/div[1]/div/ul/div[2]/li/ul/div[1]/a/li')
+2021-03-08 16:34:01,902 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/div[2]/section/div/div[1]/div/div[1]/button')
+2021-03-08 16:34:02,683 - basePage.py[line:35] - INFO: 点击按钮('xpath', '//*[@id="app"]/div/div[2]/section/div/div[1]/div/div[1]/button')
+2021-03-08 16:34:02,684 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/div[2]/section/div/form/div[1]/div/div/label[2]/span[2]')
+2021-03-08 16:34:03,263 - basePage.py[line:35] - INFO: 点击按钮('xpath', '//*[@id="app"]/div/div[2]/section/div/form/div[1]/div/div/label[2]/span[2]')
+2021-03-08 16:34:03,264 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/div[2]/section/div/form/div[2]/div/div/label[1]/span[2]')
+2021-03-08 16:34:03,330 - basePage.py[line:35] - INFO: 点击按钮('xpath', '//*[@id="app"]/div/div[2]/section/div/form/div[2]/div/div/label[1]/span[2]')
+2021-03-08 16:34:03,332 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/div[2]/section/div/form/div[3]/div/div/div/input')
+2021-03-08 16:34:03,416 - basePage.py[line:29] - INFO: 输入内容---3
+2021-03-08 16:34:03,421 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/div[2]/section/div/form/div[5]/div/div/div[1]/div/input')
+2021-03-08 16:34:03,520 - basePage.py[line:29] - INFO: 输入内容---C:/Users/Administrator.SC-201907251023/Desktop/图片魔方/banner@3x.png
+2021-03-08 16:34:03,522 - basePage.py[line:22] - INFO: 定位到元素('xpath', '//*[@id="app"]/div/div[2]/section/div/form/div[6]/div/div[1]/input')
+2021-03-08 16:34:03,705 - basePage.py[line:29] - INFO: 输入内容---test

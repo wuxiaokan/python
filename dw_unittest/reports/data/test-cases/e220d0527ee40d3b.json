@@ -1,0 +1,101 @@
+{
+  "uid" : "e220d0527ee40d3b",
+  "name" : "test_login_element",
+  "fullName" : "testcase.test_elementui.Testadv#test_login_element",
+  "historyId" : "b87cdf54df68e17c2b5174acfcd10959",
+  "time" : {
+    "start" : 1614590573825,
+    "stop" : 1614590574822,
+    "duration" : 997
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browse",
+    "time" : {
+      "start" : 1614590569497,
+      "stop" : 1614590573823,
+      "duration" : 4326
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "后台添加闪屏"
+  }, {
+    "name" : "story",
+    "value" : "后台管理登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_elementui"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testadv"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "3528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_elementui"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ebdbd82b174ff6a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614590487135,
+        "stop" : 1614590488137,
+        "duration" : 1002
+      }
+    }, {
+      "uid" : "3351242295632827",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614570641063,
+        "stop" : 1614570642162,
+        "duration" : 1099
+      }
+    }, {
+      "uid" : "9877e880db7da43a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614566307502,
+        "stop" : 1614566308791,
+        "duration" : 1289
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e220d0527ee40d3b.json",
+  "parameterValues" : [ ]
+}

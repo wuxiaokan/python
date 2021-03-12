@@ -1,0 +1,80 @@
+{
+  "uid" : "80a6ad968d8c4dba",
+  "name" : "test_get_code[data1]",
+  "fullName" : "case.test_login.TestLogin#test_get_code",
+  "historyId" : "5afb894a472b27abcf0733dbf12cc29c",
+  "time" : {
+    "start" : 1614063299159,
+    "stop" : 1614063299195,
+    "duration" : 36
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 400",
+  "statusTrace" : "self = <case.test_login.TestLogin object at 0x000001A8C630A9E8>\ndata = {'expected': {'message': '密码不能为空', 'status_code': 400}, 'id': 2, 'json': {'deviceId': 'aaa', 'phone': '113157121093', 'type': '0'}, 'title': '不合理手机号'}\nlogin = {'Content-Type': 'application/json', 'token': '65716364-e05b-435d-bb7d-d28eb3d4d77d'}\n\n    @pytest.mark.parametrize(\"data\", datas_dict)\n    @allure.story(\"获取短信接口\")\n    def test_get_code(self, data, login):\n        print(login)\n        result = ApiLogin.getcode(url, headers, data['json'])\n        print(result)\n        # 断言验证\n>       assert (result['code'] == data['expected']['status_code'])\nE       assert 200 == 400\n\ncase\\test_login.py:28: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1614063298767,
+      "stop" : 1614063299082,
+      "duration" : 315
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取短信接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "2184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 2, 'title': '不合理手机号', 'json': {'phone': '113157121093', 'deviceId': 'aaa', 'type': '0'}, 'expected': {'status_code': 400, 'message': '密码不能为空'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80a6ad968d8c4dba.json",
+  "parameterValues" : [ "{'id': 2, 'title': '不合理手机号', 'json': {'phone': '113157121093', 'deviceId': 'aaa', 'type': '0'}, 'expected': {'status_code': 400, 'message': '密码不能为空'}}" ]
+}

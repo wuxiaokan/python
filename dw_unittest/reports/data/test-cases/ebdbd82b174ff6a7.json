@@ -1,0 +1,75 @@
+{
+  "uid" : "ebdbd82b174ff6a7",
+  "name" : "test_login_element",
+  "fullName" : "testcase.test_elementui.Testadv#test_login_element",
+  "historyId" : "b87cdf54df68e17c2b5174acfcd10959",
+  "time" : {
+    "start" : 1614590487135,
+    "stop" : 1614590488137,
+    "duration" : 1002
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browse",
+    "time" : {
+      "start" : 1614590482152,
+      "stop" : 1614590487110,
+      "duration" : 4958
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "后台管理登录"
+  }, {
+    "name" : "feature",
+    "value" : "后台添加闪屏"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_elementui"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testadv"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "6036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_elementui"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebdbd82b174ff6a7.json",
+  "parameterValues" : [ ]
+}

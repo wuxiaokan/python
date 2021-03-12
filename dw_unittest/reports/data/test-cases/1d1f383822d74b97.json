@@ -1,0 +1,94 @@
+{
+  "uid" : "1d1f383822d74b97",
+  "name" : "test_get_code[data0]",
+  "fullName" : "testcase.test_login.TestLogin#test_get_code",
+  "historyId" : "368c0aed2e37de8e960cafad1201bd7f",
+  "time" : {
+    "start" : 1614590494014,
+    "stop" : 1614590494062,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1614590493806,
+      "stop" : 1614590493999,
+      "duration" : 193
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "470a541cba716008",
+      "name" : "log",
+      "source" : "470a541cba716008.txt",
+      "type" : "text/plain",
+      "size" : 155
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "获取短信接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-201907251023"
+  }, {
+    "name" : "thread",
+    "value" : "6036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 1, 'title': '合理手机号', 'json': {'phone': '13157121093', 'deviceId': 'aaa', 'type': '0'}, 'expected': {'status_code': 200, 'message': '请求成功'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d1f383822d74b97.json",
+  "parameterValues" : [ "{'id': 1, 'title': '合理手机号', 'json': {'phone': '13157121093', 'deviceId': 'aaa', 'type': '0'}, 'expected': {'status_code': 200, 'message': '请求成功'}}" ]
+}
